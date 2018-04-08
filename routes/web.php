@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/biodata','biodataController@getData');
 Route::resource('/biodata','biodataController');
